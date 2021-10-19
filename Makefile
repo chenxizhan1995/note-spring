@@ -1,5 +1,5 @@
 serve:
-	- mdbook build --port 9000
+	- mdbook serve --port 9000
 
 clean:
 	find -name *.class -delete
